@@ -1,0 +1,35 @@
+{
+  "name": "twitch-plays-minesweeper",
+  "version": "1.0.0",
+  "description": "Twitch plays Minesweeper",
+  "main": "tp-minesweeper.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node tp-minesweeper.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeremytrigano/twitch-plays-minesweeper.git"
+  },
+  "keywords": [
+    "twitch",
+    "plays",
+    "minesweeper",
+    "javascript",
+    "tdd"
+  ],
+  "author": "Jeremy Trigano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremytrigano/twitch-plays-minesweeper/issues"
+  },
+  "homepage": "https://github.com/jeremytrigano/twitch-plays-minesweeper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.4"
+  }
+}
